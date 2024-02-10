@@ -1,0 +1,25 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "This is sample project created by me for practising",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasannakumar50/React-App.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Virat Kohli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasannakumar50/React-App/issues"
+  },
+  "homepage": "https://github.com/prasannakumar50/React-App#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
