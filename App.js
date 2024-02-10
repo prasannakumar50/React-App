@@ -1,11 +1,23 @@
 import React from "react";
 import ReactDOM  from "react-dom";
+import * as ReactDOM from 'react-dom/client';
+
+import Body from "./src/components/Body";
 
 
-const FunctionComponent = () =>(
-    <div>
-       <h1>Its Functional Component</h1>
-    </div>
-);
+
+const AppLayout =()=>{
+ return(
+   <div className="app">
+            <Body />
+          </div>
+        )
+  
+}
+
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<FunctionComponent />);
+root.render(<AppLayout/>);
